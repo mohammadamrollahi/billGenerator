@@ -1,0 +1,45 @@
+@font-face
+{
+    src: url("./Assets/fonts/Shabnam.ttf");
+    font-family: shabnam;
+}
+body
+{
+    height: 100vh;
+    display: flex !important;
+    align-items: center !important;
+    font-family: shabnam;
+    direction: rtl;
+}
+.my-container
+{
+        width: 85vw !important;
+        height:92vh;
+        border-radius: 36.3px;
+        border: solid 7px rgba(241, 196, 15, 0.5);
+}
+.resturant-name 
+{
+height: 8%;
+text-align: center;
+}
+.resturant-name-text
+{
+font-size: 20pt;
+font-weight: bold;
+}
+.foods-row-container 
+{
+height: 67%;
+overflow-y: scroll;
+}
+.foods-row
+{
+
+    height:19%;
+    border-bottom: 1px solid gray;
+}
+.foods-img
+{
+    height:80%;
+}
