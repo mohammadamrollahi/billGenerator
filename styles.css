@@ -14,7 +14,7 @@ body
 .my-container
 {
         width: 85vw !important;
-        height:92vh;
+        height:92vh !important;
         border-radius: 36.3px;
         border: solid 7px rgba(241, 196, 15, 0.5);
 }
@@ -32,6 +32,7 @@ font-weight: bold;
 {
 height: 67%;
 overflow-y: scroll;
+
 }
 .foods-row
 {
@@ -103,3 +104,60 @@ text-align: start;
     color: orangered;
     height: 20px;
 }
+.footer
+{
+    height: 25%;
+    -webkit-box-shadow: 0px -9px 40px -11px rgba(128,128,128,1);
+    -moz-box-shadow: 0px -9px 40px -11px rgba(128,128,128,1);
+    box-shadow: 0px -9px 40px -11px rgba(128,128,128,1);
+}
+.footer-leftSide 
+{
+    width: 46%;
+}
+.footer-rightSide p
+{
+    font-size: 16.5pt;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.71);
+margin: 0;
+}
+.payablePrice-number
+{
+    font-size: 45pt !important;
+    color: black !important;
+
+}
+.payablePrice-unit
+{
+    font-size: 29pt !important;
+    color: black !important;
+}
+.discountCode-input
+{
+        width: 90%;
+        height: 50px;
+        border-radius: 22.8px;
+        border: solid 1.2px #e67e22;
+      
+}
+.discountCode-button {
+    width: 38.6px;
+    height: 38.6px;
+    border: none;
+    background-color: #f39c12;
+    border-radius: 50%;
+    outline: 0;
+    position: absolute;
+    color: white;
+    left:14.5%;
+  }
+  .submitButton {
+    width: 297.2px;
+    height: 67.9px;
+    border-radius: 11.7px;
+    font-size: 20pt;
+    color: white;
+    border: none;
+    background-color: #e67e22;
+  }

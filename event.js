@@ -11,6 +11,7 @@ $(".plusmark").on("click",function(){
    let numberInt=parseInt(number.text())
    number.text(numberInt+1)
    totalPrice.text(+unitprice +totalpriceNumber)
+   calAllTotalPricePlus(unitprice)
 
 })
 $(".minusmark").on("click",function(){
@@ -23,6 +24,15 @@ $(".minusmark").on("click",function(){
     {
     number.text(numberInt-1)
     totalPrice.text(totalpriceNumber-(+unitprice))
+    calAllTotalPriceMinus(unitprice)
     }
 
  })
+ function calAllTotalPricePlus(value){
+    $(".sumTotalPrices-number").text(+value+ parseInt($(".sumTotalPrices-number").text()))
+    $(".servisCharge-number").text((parseInt($(".sumTotalPrices-number").text()))*0.09)
+ }
+ function calAllTotalPriceMinus(value){
+    $(".sumTotalPrices-number").text(parseInt($(".sumTotalPrices-number").text()) - (+value))
+    $(".servisCharge-number").text((parseInt($(".sumTotalPrices-number").text()))*0.09)
+ }
