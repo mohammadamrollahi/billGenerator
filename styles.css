@@ -1,14 +1,14 @@
 @font-face
 {
-    src: url("./Assets/fonts/Shabnam.ttf");
-    font-family: shabnam;
+    src: url("./Assets/fonts/Yekan.ttf");
+    font-family: yekan;
 }
 body
 {
     height: 100vh;
     display: flex !important;
     align-items: center !important;
-    font-family: shabnam;
+    font-family: yekan;
     direction: rtl;
 }
 .my-container
@@ -42,4 +42,64 @@ overflow-y: scroll;
 .foods-img
 {
     height:80%;
+}
+.foods-totalprice-text
+{
+    font-weight: bold;
+    font-size: 20pt;
+letter-spacing: -6px;
+}
+.foods-totalprice-unit
+{
+    font-weight: bold;
+    font-size: 16pt;
+}
+.food-title-div
+{
+    height: 33%;
+}
+.food-title
+{
+    font-weight: bold;
+    font-size: 20pt;
+}
+.food-price-div
+{
+    height: 33%;
+}
+.food-number-div
+{
+    height: 33%;
+}
+.food-number-mark-div
+{
+    height: 30px;
+}
+.food-number-div
+{
+    width: 15%;
+}
+.food-price-text
+{
+    font-size: 18pt;
+    letter-spacing: -3px;
+}
+.food-price-unit
+{
+    font-size: 18pt;
+}
+.food-number-text
+{
+font-size: 24pt;
+text-align: start;
+}
+.plusmark
+{
+    color: orangered;
+    height: 20px;
+}
+.minusmark
+{
+    color: orangered;
+    height: 20px;
 }
