@@ -13,7 +13,7 @@ body
 }
 .my-container
 {
-        width: 85vw !important;
+        width: 683px !important;
         height:92vh !important;
         border-radius: 36.3px;
         border: solid 7px rgba(241, 196, 15, 0.5);
@@ -135,11 +135,13 @@ margin: 0;
 }
 .discountCode-input
 {
-        width: 90%;
-        height: 50px;
+        width:297.2px;
+        height: 45.6px;
         border-radius: 22.8px;
         border: solid 1.2px #e67e22;
-      
+        position: relative;
+        right:22.5px;
+        outline: none;
 }
 .discountCode-button {
     width: 38.6px;
@@ -148,9 +150,39 @@ margin: 0;
     background-color: #f39c12;
     border-radius: 50%;
     outline: 0;
-    position: absolute;
+    position: relative;
     color: white;
-    left:14.5%;
+    left:22.5px;
+    outline: none;
+  
+  }
+  .correctCode
+  {
+    width:297.2px;
+    height: 45.6px;
+    border-radius: 22.8px;
+    border: solid 1.2px #e67e22;
+    position: relative;
+    right:22.5px;
+    outline: none;
+    background-color: rgb(140, 255, 140) !important;
+  }
+  .wrongtCode
+  {
+    background-color: rgb(255, 140, 140) !important;
+  }
+  .correctCodebtn
+  {
+    width: 38.6px;
+    height: 38.6px;
+    border: none;
+    border-radius: 50%;
+    outline: 0;
+    position: relative;
+    color: white;
+    left:22.5px;
+    outline: none;
+    background-color: red !important;
   }
   .submitButton {
     width: 297.2px;
@@ -160,4 +192,5 @@ margin: 0;
     color: white;
     border: none;
     background-color: #e67e22;
+    outline: none;
   }
